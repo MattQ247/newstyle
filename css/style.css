@@ -1,0 +1,391 @@
+@font-face{
+	font-family:'amaranthBold';
+	src: url('../fonts/amaranth-bold-webfont.eot');
+	src: url('../fonts/amaranth-bold-webfont.eot?#iefix')
+	format('embedded-opentype'),
+	url('../fonts/amaranth-bold-webfont.woff2')
+	format('woff2'),
+	url('../fonts/amaranth-bold-webfont.woff')
+	format('woff'), url('../fonts/amaranth-bold-webfont.ttf')
+	format('truetype'),
+	url('../fonts/amaranth-bold-webfont.svg#amaranthregular')
+	format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	background-color: white;
+	font-family: 'amaranthBold', Arial, sans-serif;
+}
+
+#menubucket{
+	margin: 0;
+	height: 50px;
+}
+
+#menubucket ul li{
+	margin: 0;
+	display: inline;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+#menubucket a{
+	text-decoration: none;
+	color: black;
+	padding: 0 25px 0 5px;
+
+}
+
+#pimage{
+	position: relative;
+	width: 100%;
+}
+
+.headbg img{
+	width: 100%;
+	z-index:1;
+}
+
+.profilepic{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, 10%);
+	border-radius: 100%;
+}
+
+.pluto{
+	border-radius: 50%;
+}
+
+#profbucket{
+	margin-bottom: 50px;
+	margin-top: 115px;
+}
+
+.profdetail{
+	width: 650px;
+	margin: auto;
+	color: #A3A3A3;
+	text-align: center;
+}
+
+.profdetail h2{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-size: 32px
+}
+
+.profdetail h3{
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.profdetail p{
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.profdetail a{
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+#aboutus, #tablebucket{
+	background: url("../images/section-bg.jpg") no-repeat;
+	background-size:cover;
+}
+
+#aboutuscontent{
+	width: 850px;
+	margin: auto;
+	height: 485px;
+	padding: 1px 0 0 0;
+}
+
+.aboutusbg h2{
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	padding-top: 80px;
+	color: white;
+}
+
+.dwnlph{
+	text-align: center;
+	color: white;
+}
+
+.dwnlph p{
+	padding-bottom: 20px;
+}
+
+.dwnlph p span{
+	color: green;
+}
+
+#experience{
+	background-color: #D3D3D3;
+	padding-top: 25px;
+	height: 440px;
+}
+
+#experience h2{
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#expbucket{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#expcontent{
+	border-radius: 20px;
+	background-color: white;
+	width: 685px;
+	padding: 5px 5px 0px 5px;
+}
+
+.exppic{
+	width: 120px;
+	height: 350px;
+	float: left;
+	padding: 15px 0 0 10px;
+}
+
+.exppic img{
+	width: 80px;
+	height: 80px;
+}
+
+.experlist{
+	padding: 20px 5px 0px 0px;
+	color: #A3A3A3;
+}
+
+.experlist h4, p{
+	padding-top: 10px;
+}
+
+.experlist p{
+	font-size: 14px;
+}
+
+.experlist li{
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.pluto1{
+	float: left;
+	margin-left: 8px;
+}
+
+.pluto2{
+	float: right;
+	margin-right: 8px;
+}
+
+#download{
+	background: url("../images/section-bg.jpg") no-repeat;
+	-o-background-size: cover;
+	background-position: center;
+	background-size: cover;
+}
+
+.septol, .sept{
+	background-color: rgba(46, 96, 211, 0.7);
+}
+
+#dlbuckect{
+	width: 860px;
+	height:250px;
+	margin: auto;
+	color: white;
+	padding: 50px 0 0 0;
+}
+
+#dlbuckect h2{
+	text-align: center;
+
+}
+
+#dlph p{
+	padding-bottom: 30px;
+}
+
+.dwnlph a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 18px;
+	display: inline-block;
+	background-color: #36EA00;
+	border-radius:15px;
+}
+
+.dwnlph a:hover{
+	background-color: #45a049;
+}
+
+#portfolio h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	color: #A3A3A3;
+}
+
+.portfbucket img{
+	padding-bottom: 1px;
+	height: 400px;
+}
+
+.photo1, .photo2, .photo3{
+	float: left;
+	width: 31%;
+	margin-left: 5px;
+}
+
+#gapping{
+	clear: both;
+}
+
+*{
+	margin: 0;
+}
+
+.whitespace{
+	padding-top: 20px;
+}
+
+#contact h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 80px;
+	margin-bottom: 40px;
+	color: #A3A3A3;
+}
+
+#contactbucket{
+	margin: auto;
+	padding: 5px 20px;
+}
+
+#contactform{
+	float: right;
+	color: #A3A3A3;
+	display: inline-block;
+	margin-right: 25px;
+
+}
+
+.groupl{
+	width: 585px;
+	height: 30px;
+	border: 2px solid #30D100;
+	border-radius: 4px;
+}
+
+.groupl::placeholder{
+	padding: 0 0 0 10px;
+	color: #B5B3B3;
+}
+
+.iframe{
+	float: left;
+	width: 320px;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+#optlist{
+	padding: 0 0 0 10px;
+	color: #B5B3B3;
+	height: 35px;
+	width: 585px;
+}
+
+
+#tablebucket h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	/*padding: 30px 0 10px 0;*/
+	/*margin-bottom: 70px;*/
+}
+
+#tablebucket{
+	margin-top: 50px;
+	color: white;
+	height: 520px;
+}
+
+#textarena{
+	height: 68px;
+}
+
+input[type=submit]{
+	text-decoration: none;
+	color: white;
+	padding: 8px 16px;
+	display: inline-block;
+	background-color: #4CAF50;
+	border-radius:20px;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+
+.expens{
+	background-color: rgba(46, 96, 211, 0.7);
+	height: 480px;
+	padding-bottom: 40px;
+	/*display: inline-block;*/
+}
+
+.tdexpens{
+	width: 800px;
+	margin: auto;
+}
+
+.tdexpens{
+	border: 1px solid white;
+	border-collapse: collapse;
+	border-spacing: 4px;
+}
+
+.tdexpens td, th{
+	border: 1px solid white;
+	height: 40px;
+	padding: 0 15px;
+	border-bottom: 1px solid white;
+}
+
+.tr5, .tr6, .tr7{
+	text-align: center;
+}
+
+.tdexpens th{
+	text-transform: uppercase;
+	font-family: serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tdexpens td{
+	font-weight: normal;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+.tdexpens tr td:last-child{
+	text-align: right;
+}
